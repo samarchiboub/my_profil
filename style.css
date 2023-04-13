@@ -1,0 +1,74 @@
+h1{
+	color: seagreen;
+}
+h2 {
+  color: red;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+body {
+	color: rgb(30, 30, 30); 
+	background-color: #DFDDDF;   
+}
+a {
+  color: yellow;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+
+}
+h1, h2, h3 {
+  font-family: "Helvetica", sans-serif; /* if all headers use Helvetica */
+}
+img {
+	width: 150px;
+	height: 150px;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover{
+	background-color: black;
+	color: red;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: goldenrod;
+}
+.list-inline i : hover{
+	font-size: 50px;
+	color: greenyellow;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
